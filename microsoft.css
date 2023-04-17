@@ -1,0 +1,1267 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.content-0{
+    position: absolute;
+    width: 100%;
+    height: 630px;
+    background-attachment: scroll;
+    background-image: url('../images/computer.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-0 .content-1-header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+.content-2-header-nav{
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    width: 45%;
+    height: 30px;
+    background-color: transparent;
+}
+
+.content-2-header-nav span{
+    position: absolute;
+    top: auto;
+    left: 0;
+}
+.content-2-header-nav span a{
+    color: #000;
+    font-size: 13px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.content-2-header-nav span a:hover{
+    text-decoration: underline;
+}
+
+.micro-image{
+    position: absolute;
+    left: 0;
+    width: 10%;
+    height: 50px;
+}
+.micro-image img{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    width: 110px;
+    height: 25px;
+}
+
+.content-3-header-nav{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    background-color: #fff;
+    right: 0;
+}
+
+.content-3-header-nav span{
+    position: absolute;
+    top: 15px;
+    right: 200px;
+}
+.content-3-header-nav span a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    font-family:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.content-3-header-nav span a:hover{
+    text-decoration: underline;
+}
+
+.content-4-info{
+    position: absolute;
+    top: 210px;
+    left: 120px;
+    width: 35%;
+    height: 90px;
+    background-color: transparent;
+    line-height: 1.5;
+}
+.content-4-info h2{
+    font-size: 2em;
+    font-weight: 600;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.content-5-info{
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    width: 32%;
+    height: 60px;
+    background-color: transparent;
+}
+
+.content-5-info span{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+    font-size: 1em;
+}
+
+.content-6-btn{
+    position: absolute;
+    width: 16%;
+    height: 40px;
+    background-color: #0067b8;
+    top: 390px;
+    left: 120px;
+    border-radius: 3px;
+}
+
+.content-6-btn a{
+    position: absolute;
+    top: 20%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 20px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.content-6-btn:hover{
+    background-color: #005ba1;
+}
+
+.content-4-header-icons{
+    position: absolute;
+    width: 5%;
+    top: 0;
+}
+
+.content-4-header-icons #search{
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.content-4-header-icons #laptop{
+    position: absolute;
+    left: 140px;
+    top: 0;
+}
+
+.content-4-header-icons #user{
+    position: absolute;
+    left: 180px;
+    top: 0;
+}
+
+/* next-page */
+
+.shopping-page{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 615px;
+}
+
+.shopping-page .shopping-info{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.shopping-info .first-info{
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    padding: 0 15px;
+    background-color: transparent;
+    display: flex;
+    left: 10%;
+    top: 150px;
+}
+
+.shopping-info .first-info img{
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+
+.shopping-info .first-info a{
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #005ba1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.shopping-info .second-info{
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    padding: 0 40px;
+    background-color: transparent;
+    left: 25%;
+    top: 150px;
+}
+
+.shopping-info .second-info img{
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+
+.shopping-info .second-info a{
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #005ba1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.shopping-info .third-info{
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    padding: 0 80px;
+    background-color: transparent;
+    left: 45%;
+    top: 150px;
+}
+
+.shopping-info .third-info img{
+    position: absolute;
+    top: 0;
+    left: 31%;
+}
+
+.shopping-info .third-info a{
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #005ba1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.shopping-info .fourth-info{
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    padding: 0 80px;
+    background-color: transparent;
+    left: 65%;
+    top: 150px;
+}
+
+.shopping-info .fourth-info img{
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.shopping-info .fourth-info a{
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #005ba1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.shopping-info .fifth-info{
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    padding: 0 80px;
+    background-color: transparent;
+    left: 78%;
+    top: 150px;
+}
+
+.shopping-info .fifth-info img{
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.shopping-info .fifth-info a{
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #005ba1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.shopping-info .sixth-info{
+    position: absolute;
+    width: 10%;
+    height: 100px;
+    padding: 0 80px;
+    background-color: transparent;
+    left: 45%;
+    top: 250px;
+}
+
+.shopping-info .sixth-info img{
+    position: absolute;
+    top: 0;
+    left: 13%;
+}
+
+.shopping-info .sixth-info a{
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #005ba1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* next page */
+
+.shopping-information-page{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 1100px;
+}
+
+
+.shopping-information-page .picture-information-page{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+}
+
+.picture-first{
+    position: absolute;
+    left: 3%;
+    width: 22%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.picture-first img{
+    width:90%;
+    margin-left: 10%;
+}
+
+.picture-first h2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.picture-first span{
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 50%;
+}
+
+.picture-second{
+    position: absolute;
+    left: 26.5%;
+    width: 22%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.picture-second img{
+    width:90%;
+    margin-left: 10%;
+}
+
+.picture-second h2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.picture-second span{
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 50%;
+}
+
+.picture-third{
+    position: absolute;
+    left: 50.5%;
+    width: 22%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.picture-third img{
+    width:90%;
+    margin-left: 10%;
+}
+
+.picture-third h2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1;
+}
+
+.picture-third span{
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 60%;
+}
+
+.picture-fourth{
+    position: absolute;
+    left: 74%;
+    width: 22%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.picture-fourth img{
+    width:90%;
+    margin-left: 10%;
+}
+
+.picture-fourth h2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.picture-fourth span{
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 60%;
+}
+
+.picture-first a{
+    position: absolute;
+    top: 320px;
+    left: 10%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.picture-first a:hover{
+    text-decoration: underline;
+}
+
+.picture-second a{
+    position: absolute;
+    top: 280px;
+    left: 10%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.picture-second a:hover{
+    text-decoration: underline;
+}
+
+.picture-third a{
+    position: absolute;
+    top: 370px;
+    left: 10%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.picture-third a:hover{
+    text-decoration: underline;
+}
+
+.picture-fourth a{
+    position: absolute;
+    top: 340px;
+    left: 10%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.picture-fourth a:hover{
+    text-decoration: underline;
+}
+
+
+/* next-page */
+
+.third-page-picture{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    top: 1080px;
+}
+
+.third-page-picture .adventure-picture{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+
+}
+
+.adventure-picture img{
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+
+.adventure-picture h2{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    color: #fff;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.7em;
+}
+
+.adventure-picture span{
+    position: absolute;
+    top: 250px;
+    left: 180px;
+    color: #fff;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    width: 25%;
+}
+
+.adventure-picture-btn-xbox{
+    position: absolute;
+    width: 18%;
+    height: 40px;
+    background-color: #0067b8;
+    top: 320px;
+    left: 180px;
+    border-radius: 3px;
+}
+
+.adventure-picture-btn-xbox a{
+    position: absolute;
+    top: 20%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 20px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.adventure-picture-btn-xbox:hover{
+    background-color: #005ba1;
+}
+
+/* next page */
+
+.business-page{
+    position: relative;
+    top: 1800px;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.business-info-pic{
+    position: absolute;
+    width: 100%;
+    height: 580px;
+    background-color: transparent;
+}
+
+.business-info-pic .title-bsusiness-info h2{
+    position: absolute;
+    left: 5%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+    font-size: 1.9em;
+}
+
+.business-page-first-picture{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 21%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.business-page-first-picture img{
+    position: absolute;
+    width: 100%;
+}
+
+.business-page-first-picture h2{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 200px;
+}
+
+.business-page-first-picture span{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 280px;
+}
+
+.business-page-first-picture a{
+    position: absolute;
+    top: 370px;
+    left: 0%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.business-page-first-picture a:hover{
+    border-bottom: 1px solid;
+}
+
+.business-page-second-picture{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    width: 21%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.business-page-second-picture img{
+    position: absolute;
+    width: 100%;
+}
+
+.business-page-second-picture h2{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 200px;
+}
+
+.business-page-second-picture span{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 280px;
+}
+
+.business-page-second-picture a{
+    position: absolute;
+    top: 370px;
+    left: 0%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.business-page-second-picture a:hover{
+    border-bottom: 1px solid;
+}
+
+.business-page-third-picture{
+    position: absolute;
+    top: 10%;
+    left: 51%;
+    width: 21%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.business-page-third-picture img{
+    position: absolute;
+    width: 100%;
+}
+
+.business-page-third-picture h2{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 200px;
+}
+
+.business-page-third-picture span{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 280px;
+}
+
+.business-page-third-picture a{
+    position: absolute;
+    top: 370px;
+    left: 0%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.business-page-third-picture a:hover{
+    border-bottom: 1px solid;
+}
+
+.business-page-fourth-picture{
+    position: absolute;
+    top: 10%;
+    left: 74%;
+    width: 21%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.business-page-fourth-picture img{
+    position: absolute;
+    width: 100%;
+}
+
+.business-page-fourth-picture h2{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 200px;
+}
+
+.business-page-fourth-picture span{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 280px;
+}
+
+.business-page-fourth-picture a{
+    position: absolute;
+    top: 400px;
+    left: 0%;
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #005ba1;
+}
+
+.business-page-fourth-picture a:hover{
+    border-bottom: 1px solid;
+}
+
+/* next-page */
+
+.innovation-page{
+    position: relative;
+    top: 2350px;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.innovation-page-picture{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    background-color: transparent;
+}
+
+.innovation-page-picture img{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 7%;
+}
+
+.innovation-page-info{
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    width: 35%;
+    height: 350px;
+    background-color: #fff;
+}
+
+.innovation-page-info h1{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.innovation-page-info span{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    right: 11%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.innovation-page-btn{
+    position: absolute;
+    top: 260px;
+    left: 10%;
+    width: 30%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #0067b8;
+}
+
+.innovation-page-btn a{
+    position: absolute;
+    left: 15%;
+    top: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.innovation-page-btn:hover{
+    background-color: #005ba1;
+}
+
+/* icons */
+
+.follow-microsoft-page{
+    position: relative;
+    top: 3050px;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+    background-color: transparent;
+}
+
+.follow-microsoft-page span{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* next-page */
+
+.languages-settings-page{
+    position: relative;
+    top: 3090px;
+    width: 100%;
+    height: 450px;
+    background-color: transparent;
+}
+
+.settings-page{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(228, 228, 228);
+}
+
+.new-things{
+    position: absolute;
+    top: 50px;
+    left: 3%;
+    width: 15%;
+    height: 300px;
+    background-color: transparent;
+}
+
+.new-things ul{
+    position: absolute;
+    left: 1%;
+    width: 98%;
+}
+
+.new-things ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.new-things ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+
+.new-things ul li a:hover{
+    text-decoration: underline;
+    line-height: 0.5;
+}
+
+.what-new-title{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    left: 3%;
+    background-color: transparent;
+}
+
+.what-new-title h4{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.Microsoft-store{
+    position: absolute;
+    top: 50px;
+    left: 18%;
+    width: 15%;
+    height: 300px;
+    background-color: transparent;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.Microsoft-store ul{
+    position: absolute;
+    left: 1%;
+    width: 98%;
+}
+
+.Microsoft-store ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.Microsoft-store ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+
+.Microsoft-store ul li a:hover{
+    text-decoration: underline;
+    line-height: 0.5;
+}
+
+.Microsoft-store-title{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    left: 18%;
+    background-color: transparent;
+}
+
+.Microsoft-store-title h4{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.education{
+    position: absolute;
+    top: 50px;
+    left: 33%;
+    width: 15%;
+    height: 300px;
+    background-color: transparent;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.education ul{
+    position: absolute;
+    left: 1%;
+    width: 98%;
+}
+
+.education ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.education ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+
+.education ul li a:hover{
+    text-decoration: underline;
+    line-height: 0.5;
+}
+
+.education-title{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    left: 33%;
+    background-color: transparent;
+}
+
+.education-title h4{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.business{
+    position: absolute;
+    top: 50px;
+    left: 48%;
+    width: 15%;
+    height: 300px;
+    background-color: transparent;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.business ul{
+    position: absolute;
+    left: 1%;
+    width: 98%;
+}
+
+.business ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.business ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+
+.business ul li a:hover{
+    text-decoration: underline;
+    line-height: 0.5;
+}
+
+.business-title{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    left: 48%;
+    background-color: transparent;
+}
+
+.business-title h4{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.developer-it{
+    position: absolute;
+    top: 50px;
+    left: 63%;
+    width: 15%;
+    height: 300px;
+    background-color: transparent;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.developer-it ul{
+    position: absolute;
+    left: 1%;
+    width: 98%;
+}
+
+.developer-it ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.developer-it ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+
+.developer-it ul li a:hover{
+    text-decoration: underline;
+    line-height: 0.5;
+}
+
+.developer-it-title{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    left: 63%;
+    background-color: transparent;
+}
+
+.developer-it-title h4{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.company{
+    position: absolute;
+    top: 50px;
+    left: 78%;
+    width: 15%;
+    height: 300px;
+    background-color: transparent;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.company ul{
+    position: absolute;
+    left: 1%;
+    width: 98%;
+}
+
+.company ul li{
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.company ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #000;
+}
+
+.company ul li a:hover{
+    text-decoration: underline;
+    line-height: 0.5;
+}
+
+.company-title{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    left: 78%;
+    background-color: transparent;
+}
+
+.company-title h4{
+    position: absolute;
+    top: 15px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+/* language */
+
+.world-language{
+    position: absolute;
+    left: 6%;
+    bottom: 20px;
+    width: 9%;
+    height: 20px;
+    background-color: transparent;
+}
+
+.world-language span{
+    position: absolute;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11.4px;
+    font-weight: 500;
+}
+
+
+
+.world-logo{
+    position: absolute;
+    left: 4%;
+    bottom: 20px;
+    width: 2%;
+    height: 20px;
+    background-color: transparent;
+}
+
+.world-logo i{
+    position: absolute;
+    left: 3px;
+    color: blue;
+}
+
+/* the last footer information about the company */
+
+.footer-company-information{
+    position: absolute;
+    left: 32.4%;
+    bottom: 20px;
+    width: 60%;
+    height: 20px;
+    background-color: transparent;
+}
+
+.footer-company-information ul{
+    background-color: transparent;
+}
+
+.footer-company-information ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 11.4px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.footer-company-information ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11.4px;
+    font-weight: 500px;
+}
+
+.footer-company-information ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* next pa */
